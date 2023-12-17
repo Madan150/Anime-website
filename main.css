@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Poppins&family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/30626.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.list-group-item a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.list-group-item h4{
+    color:rgb(155, 154, 154)
+}
+
+#right-box{
+    margin-top: -78px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,2fr); 
+    align-items: flex-end;
+}
+.more-videos a{
+    color: orange;
+}
+.card-body h5{
+    color: blue;
+    font-weight: 700;
+}
+#more-info{
+    color: orange;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media{
+    display: flex;   
+    gap:12px;
+    align-items: center;
+}
+.social-media a{
+    list-style-type: none;
+    color: rgb(114, 112, 112);
+    background-color: black;
+    padding: 10px;
+    font-size: 30px;
+}
+.social-media h4{
+    color: orange;
+}
+
+/* listing file */
+.main-content-news{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: 2/3;
+    
+}
+.news-card{
+    width:760px
+}
+.card-body a{
+    float: right;
+    color: orange;
+}
+/*news description*/
+.card-news{
+    width:760px;
+    border-bottom: 2px solid;
+}
+.header-news{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.backbtn a{
+    color: orange ;
+    
+}
+
+.grid-images img{
+    object-fit: fill;
+    width: 100%;
+    color: black;
+}
+.grid-images a{
+    color: black;
+    text-decoration: none;
+}
+.card-group-team{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 10px;
+}
+.card-group-team h5{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+.desc-image img{
+    width:60%;
+    float:left;
+    margin: 20px;
+}
+
+/* character description page */
+.content-cards-chardes{
+    width: 760px;
+}
+.desc h3{
+    color: orange;
+}
+/* schedule web */
+.card-banner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.card-banner img{
+    width: 100%;
+}
+.card-banner{
+    width: 760px;
+}
